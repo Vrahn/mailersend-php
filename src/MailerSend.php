@@ -31,7 +31,8 @@ use MailerSend\Endpoints\Webhook;
 use MailerSend\Endpoints\Token;
 use MailerSend\Endpoints\Recipient;
 use MailerSend\Exceptions\MailerSendException;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Arr;
 
 /**
  * This is the PHP SDK for MailerSend

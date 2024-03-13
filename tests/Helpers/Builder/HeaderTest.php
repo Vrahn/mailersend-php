@@ -5,7 +5,7 @@ namespace MailerSend\Tests\Helpers\Builder;
 use MailerSend\Exceptions\MailerSendAssertException;
 use MailerSend\Helpers\Builder\Header;
 use MailerSend\Tests\TestCase;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class HeaderTest extends TestCase
 {

@@ -9,7 +9,7 @@ use MailerSend\Endpoints\ScheduleMessages;
 use MailerSend\Exceptions\MailerSendAssertException;
 use MailerSend\Tests\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class ScheduleMessagesTest extends TestCase
 {

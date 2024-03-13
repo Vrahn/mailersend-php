@@ -11,7 +11,7 @@ use MailerSend\Common\HttpLayer;
 use MailerSend\Endpoints\Analytics;
 use MailerSend\Helpers\Builder\ActivityAnalyticsParams;
 use Psr\Http\Message\ResponseInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class AnalyticsTest extends TestCase
 {

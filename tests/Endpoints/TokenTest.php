@@ -8,7 +8,7 @@ use MailerSend\Endpoints\Token;
 use MailerSend\Helpers\Builder\TokenParams;
 use MailerSend\Tests\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class TokenTest extends TestCase
 {

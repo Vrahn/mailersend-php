@@ -9,7 +9,7 @@ use MailerSend\Exceptions\MailerSendAssertException;
 use MailerSend\Helpers\Builder\EmailVerificationParams;
 use MailerSend\Tests\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class EmailVerificationTest extends TestCase
 {

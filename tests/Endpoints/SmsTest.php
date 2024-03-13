@@ -12,7 +12,7 @@ use MailerSend\Helpers\Builder\SmsPersonalization;
 use MailerSend\Tests\TestCase;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class SmsTest extends TestCase
 {

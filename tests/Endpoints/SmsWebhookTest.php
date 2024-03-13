@@ -9,7 +9,7 @@ use MailerSend\Helpers\Builder\SmsWebhookParams;
 use MailerSend\Helpers\Builder\WebhookParams;
 use MailerSend\Tests\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class SmsWebhookTest extends TestCase
 {

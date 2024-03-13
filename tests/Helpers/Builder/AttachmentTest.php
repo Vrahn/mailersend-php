@@ -4,7 +4,7 @@ namespace MailerSend\Tests\Helpers\Builder;
 
 use MailerSend\Helpers\Builder\Attachment;
 use MailerSend\Tests\TestCase;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class AttachmentTest extends TestCase
 {

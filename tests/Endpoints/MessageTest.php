@@ -7,7 +7,7 @@ use MailerSend\Common\HttpLayer;
 use MailerSend\Endpoints\Message;
 use MailerSend\Tests\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class MessageTest extends TestCase
 {

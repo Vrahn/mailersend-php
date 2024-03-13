@@ -10,7 +10,7 @@ use MailerSend\Helpers\Builder\DomainParams;
 use MailerSend\Helpers\Builder\DomainSettingsParams;
 use MailerSend\Tests\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class DomainTest extends TestCase
 {

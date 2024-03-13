@@ -7,7 +7,7 @@ use Assert\AssertionFailedException;
 use MailerSend\Exceptions\MailerSendAssertException;
 use MailerSend\Helpers\Builder\EmailParams;
 use MailerSend\Helpers\Builder\SmsParams;
-use Tightenco\Collect\Support\Collection;
+use Illuminate\Support\Collection;
 
 class GeneralHelpers
 {

@@ -3,7 +3,7 @@
 namespace MailerSend\Helpers\Builder;
 
 use Illuminate\Contracts\Support\Arrayable;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class Filter implements Arrayable, \JsonSerializable
 {

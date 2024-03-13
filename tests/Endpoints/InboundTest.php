@@ -14,7 +14,7 @@ use MailerSend\Helpers\Builder\Inbound as InboundBuilder;
 use MailerSend\Helpers\Builder\MatchFilter;
 use MailerSend\Tests\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class InboundTest extends TestCase
 {

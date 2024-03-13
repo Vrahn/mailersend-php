@@ -10,7 +10,7 @@ use MailerSend\Helpers\Builder\Personalization;
 use MailerSend\Helpers\Builder\Recipient;
 use MailerSend\Helpers\Builder\Variable;
 use MailerSend\Helpers\GeneralHelpers;
-use Tightenco\Collect\Support\Collection;
+use Illuminate\Support\Collection;
 
 class BulkEmail extends AbstractEndpoint
 {

@@ -10,7 +10,7 @@ use MailerSend\Helpers\Builder\SmsInbound as SmsInboundBuilder;
 use MailerSend\Helpers\Builder\SmsInboundFilter;
 use MailerSend\Tests\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class SmsInboundTest extends TestCase
 {

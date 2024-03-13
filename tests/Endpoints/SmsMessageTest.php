@@ -8,7 +8,7 @@ use MailerSend\Endpoints\SmsMessage;
 use MailerSend\Exceptions\MailerSendAssertException;
 use MailerSend\Tests\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class SmsMessageTest extends TestCase
 {
