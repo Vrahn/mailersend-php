@@ -6,7 +6,7 @@ use Assert\Assertion;
 use JsonSerializable;
 use MailerSend\Exceptions\MailerSendAssertException;
 use MailerSend\Helpers\GeneralHelpers;
-use Tightenco\Collect\Contracts\Support\Arrayable;
+use Illuminate\Contracts\Support\Arrayable;
 
 class TokenParams implements Arrayable, JsonSerializable
 {

@@ -5,7 +5,7 @@ namespace MailerSend\Helpers\Builder;
 use Assert\Assertion;
 use MailerSend\Exceptions\MailerSendAssertException;
 use MailerSend\Helpers\GeneralHelpers;
-use Tightenco\Collect\Contracts\Support\Arrayable;
+use Illuminate\Contracts\Support\Arrayable;
 
 class SmsPersonalization implements Arrayable, \JsonSerializable
 {

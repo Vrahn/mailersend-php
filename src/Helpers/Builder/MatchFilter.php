@@ -2,7 +2,7 @@
 
 namespace MailerSend\Helpers\Builder;
 
-use Tightenco\Collect\Contracts\Support\Arrayable;
+use Illuminate\Contracts\Support\Arrayable;
 use Tightenco\Collect\Support\Arr;
 
 class MatchFilter implements Arrayable, \JsonSerializable
